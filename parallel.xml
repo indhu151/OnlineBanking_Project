@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Suite" parallel="tests">
+  <test name="chrome-1">
+    <classes>
+      <class name="practice_package.SampleTestNG_Test_1"/>
+      <class name="practice_package.SampleTestNG_Test_2"/>
+    </classes>
+    </test>
+    <test name="chrome-2">
+    <classes>
+      <class name="practice_package.SampleTestNG_Test_3"/>
+      <class name="practice_package.SampleTestNG_Test_4"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
